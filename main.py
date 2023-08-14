@@ -3,6 +3,10 @@ from PIL import Image
 import io
 import requests
 from streamlit_lottie import st_lottie
+try:
+    from typing import Literal
+except ImportError:
+    from typing_extensions import Union, Literal
 
 
 
